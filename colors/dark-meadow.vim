@@ -27,7 +27,7 @@ let s:Magenta1        =  ['201' , '#ff00ff']
 let s:HotPink         =  ['206' , '#ff5fd7']
 let s:MediumOrchid1   =  ['207' , '#ff5faf']
 let s:Yellow1         =  ['226' , '#ffff00']
-let s:White           =  ['231' , '#ffffff']
+let s:MistyRose1      =  ['224' , '#ffd7ff']
 let s:Grey7           =  ['233' , '#121212']
 let s:Grey42          =  ['242' , '#6c6c6c']
 let s:Grey54          =  ['245' , '#8a8a8a']
@@ -63,7 +63,7 @@ call s:highlight('Character',                 s:MediumOrchid1,      s:clear,    
 call s:highlight('Number',                    s:SteelBlue1,         s:clear,    s:none      )      
 call s:highlight('Boolean',                   s:Yellow1,            s:clear,    s:none      )
 call s:highlight('Float',                     s:SteelBlue1,         s:clear,    s:none      )
-call s:highlight('Identifier',                s:White,              s:clear,    s:none      )
+call s:highlight('Identifier',                s:MistyRose1,              s:clear,    s:none      )
 call s:highlight('Function',                  s:Purple4,            s:clear,    s:none      )
 call s:highlight('Statement',                 s:MediumOrchid1,      s:clear,    s:bold      )
 call s:highlight('Conditional',               s:SkyBlue1,           s:clear,    s:bold      )
@@ -95,7 +95,7 @@ call s:highlight('Todo',                      s:Yellow1,            s:clear,    
 call s:highlight('Normal',                    s:clear,              s:Grey7,    s:none      )
 call s:highlight('Visual',                    s:clear,              s:Grey42,   s:none      )
 call s:highlight('Cursor',                    s:Grey66,             s:clear,    s:none      )
-call s:highlight('LineNr',                    s:White,              s:clear,    s:none      )
+call s:highlight('LineNr',                    s:MistyRose1,              s:clear,    s:none      )
 call s:highlight('CursorLineNr',              s:DarkMagenta,        s:clear,    s:italic    )
 
 
@@ -126,29 +126,29 @@ call s:highlight('vimOption',                 s:DarkViolet,         s:clear,    
 " Elm syntax highlighting
 " Requires plug: ElmCast/Magenta2-vim
 "
-"call s:highlight('Magenta2TypeDef',           s:MediumOrchid1,      s:clear,    s:bold      )
-"call s:highlight('Magenta2Alias',             s:Grey66,             s:clear,    s:none      )
-"call s:highlight('Magenta2TopLevelDecl',      s:SkyBlue1,           s:clear,    s:bold      )
-"call s:highlight('Magenta2Braces',            s:DarkMagenta,        s:clear,    s:none      )
+call s:highlight('Magenta2TypeDef',           s:MediumOrchid1,      s:clear,    s:bold      )
+call s:highlight('Magenta2Alias',             s:Grey66,             s:clear,    s:none      )
+call s:highlight('Magenta2TopLevelDecl',      s:SkyBlue1,           s:clear,    s:bold      )
+call s:highlight('Magenta2Braces',            s:DarkMagenta,        s:clear,    s:none      )
 
 
 " Elixir syntax highlighting
 " Requires plug: elixir-editors/vim-elixir
 "
-"call s:highlight('elixirAlias',               s:Magenta2,           s:clear,    s:italic    )
-"call s:highlight('elixirDefine',              s:MediumOrchid1,      s:clear,    s:none      )
-"call s:highlight('elixirBlockDefinition',     s:MediumOrchid1,      s:clear,    s:none      )
-"call s:highlight('elixirFunctionDeclaration', s:Grey66,             s:clear,    s:none      )
+call s:highlight('elixirAlias',               s:Magenta2,           s:clear,    s:italic    )
+call s:highlight('elixirDefine',              s:MediumOrchid1,      s:clear,    s:none      )
+call s:highlight('elixirBlockDefinition',     s:MediumOrchid1,      s:clear,    s:none      )
+call s:highlight('elixirFunctionDeclaration', s:Grey66,             s:clear,    s:none      )
 
 
 " GOLang syntax highlighting
 " Requires plug: fatih/vim-go
 "
-"call s:highlight('goPackage',                 s:Magenta2,           s:clear,    s:italic    )
-"call s:highlight('goImport',                  s:Purple4,            s:clear,    s:italic    )
+call s:highlight('goPackage',                 s:Magenta2,           s:clear,    s:italic    )
+call s:highlight('goImport',                  s:Purple4,            s:clear,    s:italic    )
 
 
 " Rust syntax highlighting
 " Requires plug: rust-lang/rust.vim
 "
-"call s:highlight('rustMacro',                 s:MediumOrchid1,      s:clear,    s:none      )
+call s:highlight('rustMacro',                 s:MediumOrchid1,      s:clear,    s:none      )
