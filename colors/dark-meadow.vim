@@ -63,7 +63,7 @@ call s:highlight('Character',                 s:MediumOrchid1,      s:clear,    
 call s:highlight('Number',                    s:SteelBlue1,         s:clear,    s:none      )      
 call s:highlight('Boolean',                   s:Yellow1,            s:clear,    s:none      )
 call s:highlight('Float',                     s:SteelBlue1,         s:clear,    s:none      )
-call s:highlight('Identifier',                s:MistyRose1,              s:clear,    s:none      )
+call s:highlight('Identifier',                s:MistyRose1,         s:clear,    s:none      )
 call s:highlight('Function',                  s:Purple4,            s:clear,    s:none      )
 call s:highlight('Statement',                 s:MediumOrchid1,      s:clear,    s:bold      )
 call s:highlight('Conditional',               s:SkyBlue1,           s:clear,    s:bold      )
@@ -95,7 +95,7 @@ call s:highlight('Todo',                      s:Yellow1,            s:clear,    
 call s:highlight('Normal',                    s:clear,              s:Grey7,    s:none      )
 call s:highlight('Visual',                    s:clear,              s:Grey42,   s:none      )
 call s:highlight('Cursor',                    s:Grey66,             s:clear,    s:none      )
-call s:highlight('LineNr',                    s:MistyRose1,              s:clear,    s:none      )
+call s:highlight('LineNr',                    s:MistyRose1,         s:clear,    s:none      )
 call s:highlight('CursorLineNr',              s:DarkMagenta,        s:clear,    s:italic    )
 
 
