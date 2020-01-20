@@ -14,7 +14,7 @@ A dark vim theme for `256-color terminals` or `GVim`
 You can use any of your favorite vim plugin manager to install or drop `dark-meadow.vim` into `~/.vim/colors/`
 
 Afterwards, add the following into your `vimrc` if not already added:
-```
+```vim
 syntax on
 set t_Co=256
 set background=dark
