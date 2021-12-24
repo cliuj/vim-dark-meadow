@@ -14,18 +14,18 @@ set background=dark
 
 " Color palette
 let s:clear           =  ['NONE', 'NONE']
-let s:Teal            =  ['6',    '#008080']
-let s:Red             =  ['9',    '#ff0000']
 let s:DeepSkyBlue3    =  ['31',   '#0087af']
 let s:SpringGreen3    =  ['35',   '#00ff87']
 let s:DeepPink4       =  ['89',   '#87005f']
 let s:SkyBlue1        =  ['117',  '#87afff']
 let s:MediumVioletRed =  ['126',  '#af0087']
 let s:MediumOrchid1   =  ['171',  '#d75fff']
+let s:Red1            =  ['196',  '#ff0000']
 let s:Thistle1        =  ['225',  '#ffd7ff']
 let s:MistyRose1      =  ['224',  '#ffd7ff']
 let s:Grey11          =  ['232',  '#1c1c1c']
-let s:Grey42          =  ['235',  '#262626']
+let s:Grey15          =  ['235',  '#262626']
+let s:Grey23          =  ['237',  '#3a3a3a']
 let s:Grey54          =  ['245',  '#8a8a8a']
 
 " Text style 
@@ -50,9 +50,9 @@ endfunction
 " For reference on what each group does, please refer to this:
 " vimdoc.sourceforge.net/htmldoc/syntax.html
 "
-call s:highlight('Comment',         s:DeepSkyBlue3,     s:clear,    s:italic)
+call s:highlight('Comment',         s:DeepSkyBlue3,     s:clear,  s:italic)
 call s:highlight('Constant',        s:DeepSkyBlue3,     s:clear,    s:none)
-call s:highlight('String',          s:Teal,             s:clear,    s:italic)
+call s:highlight('String',          s:SkyBlue1,         s:clear,  s:italic)
 call s:highlight('Character',       s:SpringGreen3,     s:clear,    s:none)
 call s:highlight('Number',          s:SkyBlue1,         s:clear,    s:none)
 call s:highlight('Boolean',         s:SpringGreen3,     s:clear,    s:bold)
@@ -80,15 +80,17 @@ call s:highlight('SpecialChar',     s:MediumOrchid1,    s:clear,    s:none)
 call s:highlight('Tag',             s:DeepSkyBlue3,     s:clear,    s:none)
 call s:highlight('Delimiter',       s:MediumVioletRed,  s:clear,    s:none)
 call s:highlight('SpecialComment',  s:Grey54,           s:clear,    s:none)
-call s:highlight('Debug',           s:Red,              s:clear,    s:none)
+call s:highlight('Debug',           s:Red1,             s:clear,    s:none)
 call s:highlight('Underlined',      s:SkyBlue1,         s:clear,    s:bold)
 call s:highlight('Ignore',          s:Grey54,           s:clear,    s:none)
-call s:highlight('Error',           s:Red,              s:clear,    s:bold)
+call s:highlight('Error',           s:Red1,             s:clear,    s:bold)
 call s:highlight('Todo',            s:MediumOrchid1,    s:clear,    s:bold)
 
 " Interface highlighting
-call s:highlight('Normal',          s:MistyRose1,       s:Grey11,   s:none)
-call s:highlight('Visual',          s:clear,            s:Grey42,   s:none)
-call s:highlight('Cursor',          s:Thistle1,         s:clear,    s:none)
-call s:highlight('LineNr',          s:Thistle1,         s:clear,    s:none)
-call s:highlight('CursorLineNr',    s:DeepPink4,        s:clear,    s:italic)
+call s:highlight('Normal',          s:MistyRose1,       s:clear,     s:none)
+call s:highlight('Visual',          s:clear,            s:Grey15,    s:none)
+call s:highlight('Cursor',          s:Thistle1,         s:clear,     s:none)
+call s:highlight('LineNr',          s:Thistle1,         s:clear,     s:none)
+call s:highlight('CursorLine',      s:clear,            s:Grey15,    s:none)
+call s:highlight('CursorLineNr',    s:clear,            s:DeepPink4, s:none)
+call s:highlight('Pmenu',           s:clear,            s:Grey23,    s:none)
