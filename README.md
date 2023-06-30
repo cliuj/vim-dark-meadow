@@ -2,6 +2,9 @@
 
 A dark vim theme for `256-color terminals` or `GVim`
 
+## ⚠️ Deprecation Notice ⚠️
+As of `2023-06-30`, this repo has been replaced by: [midnight-meadow.nvim](https://github.com/cliuj/midnight-meadow.nvim) and will no longer be updated.
+
 ## Screenshots
 **Rust** and **Ruby** samples:
 ![dark_meadow_rust_ruby_screenshot](https://user-images.githubusercontent.com/22797257/72674118-19facd00-3a6b-11ea-9a9e-3c16f22231a2.png)
